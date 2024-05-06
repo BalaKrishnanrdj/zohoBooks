@@ -1,0 +1,353 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: zoho;
+}
+ul{
+  list-style-type: none;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header{
+  height: 65px;
+  /* background-color: yellowgreen; */
+}
+.headleftside{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  font-size: 16px;
+}
+.headul li{
+  margin-left: 20px;
+}
+.headrightside img{
+  margin: 0 20px;
+}
+nav{
+  background-color: #006fda;
+}
+.navcontainer{
+  width: 1280px;
+  height: 65px;
+  margin: 0 auto;
+}
+.navleftimg{
+  border: 2px solid white;
+}
+.navul li{
+  margin-left: 26px;
+  color:  white;
+  font-size: 16px;
+}
+.navul li i{
+  margin-left: 3px;
+}
+.header-section{
+  height: 250px;
+  width: 100%;
+  background-color: #006fda;
+  padding: 32px 0;
+  position: relative;
+}
+.page-heading{
+  font-weight: 800;
+  color: white;
+  font-size: 46px;
+  line-height: 52px;
+   text-align: center;
+}
+.section-ul {
+  justify-content: center;
+  color:  white;
+  margin: 30px;
+}
+.section-ul li{
+  margin: 0 40px;
+  font-size: 16px;
+}
+.section-ul i{
+  margin: 4px;
+}
+.center{
+  width: 416px;
+  height: 43px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.center-ul{
+  border: 1px solid black;
+  padding: 4px;
+  color: white;
+  background-color: white;
+}
+.border-radius{
+  border-radius: 50px;
+}
+.center-ul li{
+  padding: 10px 20px;
+  font-size: 13px;
+}
+.center-ul li:nth-child(1){
+  background-color: #006fda;
+}
+.center-ul li:nth-child(2){
+  color: black;
+}
+.addonsection{
+  background-color: black;
+}
+.span{
+  font-size: 30px;
+  color: white;
+  padding: 40px 0px 0px 0px;
+  text-align: center;
+  word-spacing: 5px;
+  font-weight: 500px;
+}
+.sec{
+  color: #006fda;
+  margin: 0 5px;
+}
+.box-section {
+  flex-wrap: wrap;
+  justify-content: center;
+  /* width: 1110px; */
+  /* flex-basis: 1110px; */
+
+  /* height: 494px; */
+  margin: 0 100px;
+  
+}
+.boxcommen{
+  /* width: 260px; */
+  flex-basis: 260px;
+  /* flex-shrink: 0; */
+  padding: 25px;
+  height: 250px;
+  border-radius: 8px;
+  margin: 24px 8px 8px;
+  background-color: white;
+}
+.user i{
+  font-size: 24px;
+  margin-right: 5px;
+}
+.user .rupees{
+  font-size: 28px;
+}
+.rupees{
+  font-size: 28px;
+  padding: 28px 0 0 4px;
+}
+.p{
+  margin: 5px 0;
+  font-size: 16px;
+}
+.Addons{
+  color: white;
+  padding: 20px 0px 20px 100px;
+}
+/* url(/books/images/trust-books-bg.png) */
+.signup-section{
+  height: 410px;
+  background-color: white;
+  justify-content: center;
+}
+.innersignup{
+  background: url("https://www.zoho.com/books/images/trust-books-bg.png");
+  background-size: cover;
+  background-color: #006fda;
+  width: 70%;
+  height: 350px;
+  border-radius: 25px;
+  flex-direction: column;
+  justify-content: center;
+}
+.inner-h2{
+  font-size: 28px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.inner-span{
+  color: #f5ba31;
+}
+.signup{
+  padding: 15px;
+  /* font-size: 16px; */
+  color: #006fda;
+  border-radius: 10px;
+  font-weight: 600;
+  background-color: white;
+  text-align: center;
+  width: 150px;
+  margin: 0 auto;
+}
+.question{
+  width: 1110px;
+  margin: 100px auto;
+}
+
+.question-h2{
+  font-size: 30px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+.outter-i{
+  display: flex;
+  align-items: start;
+  border-bottom: 1px solid gray;
+}
+.outter-i i{
+  font-size: 20px;
+  margin: 5px 20px ;
+  padding: 10px 20px;
+}
+.question-div{
+  max-height: 40px;
+  overflow: hidden;
+  padding: 10px 20px 0 0;
+}
+:target{
+  max-height: 200px;
+  overflow: visible;
+}
+.h2-target{
+  padding: 0 5px;
+  font-weight: 300;
+}
+.question-div p{
+  padding: 10px;
+  font-size: 20px;
+}
+.pricing-container{
+  width: 75%;
+  margin: 0px auto;
+  /* background-color: cornflowerblue; */
+  height: 200px;
+}
+.font13{
+  font-size: 16px;
+}
+.radius50{
+  border-radius: 50px;
+}
+.margin15{
+  margin-right: 6px;
+  margin-left: 6px;
+}
+.toggle-switch{
+  width: 32px;
+  height: 21px;
+  position: relative;
+  background-color: black;
+}
+.toggle-switch-after{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: white;
+  right: 0;
+  margin: 3px;
+}
+.gray{
+  background-color: gray;
+  padding: 5px;
+}
+.pricing-table{
+  width: 100%;
+  border: 2px solid gray;
+  margin: 20px 0px;
+  border-radius: 5px;
+  /* justify-content: center; */ 
+}
+.pricing-tables{
+  width:45%;
+
+}
+.text-align-c{
+  text-align: center;
+}
+.standard{
+  border-bottom: 2px solid gray;
+  margin: 10px 0px;
+  padding: 15px 0px;
+}
+.plan-desc{
+  margin: 20px 0px;
+}
+.del-rupees{
+  font-size: 20px;
+}
+.rupees{
+  font-size: 46px;
+  margin: 10px 0px;
+  padding: 8px 0px 0px 0px;
+}
+.billings{
+  margin: 0px 0px 20px 0px; 
+}
+.pricing-ul{
+  margin-left: 45px;
+  list-style-type: none;
+}
+.pricing-ul li{
+  margin: 8px 0px 10px 5px;
+}
+.pricing-ul li i{
+  margin-right: 5px;
+}
+
+.pricing-table2{
+  border-top: 10px solid #F5BA31;   
+  border-right: 2px solid #F5BA31;  
+  border-bottom: 5px solid #F5BA31;
+  border-left: 2px solid #F5BA31; 
+  border-radius: 5px;
+
+}
+
+.freetrial{
+  width: 225px;
+  height: 45px;
+  background-color: #F5BA31;
+  margin: 30px auto 15px;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: 400;
+}
+.addto{
+  margin: 0px 0px 30px;
+}
+.link-add{
+  color: gray;
+  padding:0px 0px 65px 50px;
+  display: inline-block;
+}
+
+
+
+@media screen {
+
+  
+}
+/* 
+https://www.zoho.com/books/images/sales.png
+https://zoho.com/books/images/support.png
+https://www.zoho.com/books/images/partnership.png */
+
+
+
+
+
