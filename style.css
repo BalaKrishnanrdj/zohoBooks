@@ -286,6 +286,7 @@ nav{
 }
 .plan-desc{
   margin: 20px 0px;
+  font-weight: 50;
 }
 .del-rupees{
   font-size: 20px;
@@ -315,9 +316,7 @@ nav{
   border-bottom: 5px solid #F5BA31;
   border-left: 2px solid #F5BA31; 
   border-radius: 5px;
-
 }
-
 .freetrial{
   width: 225px;
   height: 45px;
@@ -335,6 +334,51 @@ nav{
   padding:0px 0px 65px 50px;
   display: inline-block;
 }
+.free-plan{
+  width: 100%;
+  justify-content: space-around;
+  margin: 50px 0px;
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+.free-plan-left{
+  width: 30%;
+  padding-left: 50px;
+}
+.free-plan-right{
+  width: 70%;
+}
+.free-plan-right h1{
+  padding: 10px 0;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.free-plan-right h3{
+  color: gray;
+  padding: 10px 0;
+}
+.list-feature{
+  margin: 15px 0px;
+  justify-content: start;
+  align-items: flex-start;
+}
+.list-features-container{
+  margin-right: 20px;
+}
+.list-features-container li {
+  font-size: 14px;
+  padding: 10px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
+}
+.list-features-container li i{
+  margin: 0px 10px 0px 0px;
+}
+.feature-btn{
+  margin: 30px 0px;
+  width: 150px;
+}
+
 
 
 
