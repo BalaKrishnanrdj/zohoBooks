@@ -378,6 +378,34 @@ nav{
   margin: 30px 0px;
   width: 150px;
 }
+.plan-detailss{
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 15px 0px 50px 0px;
+}
+.plan-detailss h3{
+  margin: 20px 0px;
+}
+.contect{
+  font-size: 35px;
+  margin: 20px 0px ;
+}
+.enquiry{
+  justify-content: space-around;
+  margin: 40px 0px;
+}
+.enquiry-div{
+  border: 2px solid rgb(194, 193, 193);
+  width: 30%;
+  border-radius: 3px;
+}
+.enquiry-div h2,.enquiry-div h4{
+  padding: 18px 0px;
+  font-weight: 200;
+}
+.enquiry-div h4 i{
+  margin: 0px 10px 0px 15px;
+}
 
 
 
